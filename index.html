@@ -29,15 +29,16 @@
 
 <!-- 3 -->
 <script type="text/javascript">
+
     var data = {
         "title": {
             "media": {
-                "url": "//www.flickr.com/photos/tm_10001/2310475988/",
-                "caption": "Whitney Houston performing on her My Love is Your Love Tour in Hamburg.",
+                "url": '<img src="https://upload.wikimedia.org/wikipedia/en/4/49/1928-summer-oympics-poster.jpg">',
+                "caption": "Official poster of Olympics 1928",
                 "credit": "flickr/<a href='http://www.flickr.com/photos/tm_10001/'>tm_10001</a>"
             },
             "text": {
-                "headline": "Whitney Houston<br/> 1963 - 2012",
+                "headline": "100 years of Olympic Games<br/> 1928 - 2028",
                 "text": "<p>Houston's voice caught the imagination of the world propelling her to superstardom at an early age becoming one of the most awarded performers of our time. This is a look into the amazing heights she achieved and her personal struggles with substance abuse and a tumultuous marriage.</p>"
             }
         },
@@ -300,10 +301,7 @@
             }
         ]
     }
-    var timeline_json = data; // replace make_the_json() with the JSON object you created
-    // two arguments: the id of the Timeline container (no '#')
-    // and the JSON object or an instance of TL.TimelineConfig created from
-    // a suitable JSON object
+    var timeline_json = data;
     window.timeline = new TL.Timeline('timeline-embed', timeline_json);
 </script>
 
